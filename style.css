@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: snow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.paginas{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding: 0%;
+    display: flex;
+    list-style-type: none;
+}
+
+.lista-pag{
+    cursor: pointer;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.inputs{
+    margin-left: 25px;
+    color: aliceblue;
+}
+
+.lista-inputs{
+    font-size: 25px;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+.button-gravar{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+body{
+    background-color:rgb(56, 56, 56);
+}
+
+a{
+    color: snow;
+    text-decoration: none;
+    
+}
+
+
