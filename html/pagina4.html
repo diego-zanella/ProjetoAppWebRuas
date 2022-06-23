@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <script src="jquary.js"></script>
-    <script src="index.js"></script>
-    <script src="pagina3.php"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Inserir Rua</title>
-    
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Tabela de Ruas</title>
+    <script src="../js/jquary.js"></script>
+    <script src="../js/index.js"></script>
 </head>
+
 <body>
     <header>
         <div class="titulo"><h1><a href="index.html">Ruas de Curitiba</a></h1></div>
@@ -22,17 +21,14 @@
             </ul>
         </div>
     </header>
-    
-    <main>
-        <ul class="inputs">
-            <li class="lista-inputs">CEP</li><input type="text" id="cep" >
-            <li class="lista-inputs">Rua</li><input type="text" id="rua">
-            <li class="lista-inputs">UF</li><input type="text" id="uf">
-            <li class="lista-inputs">Cidade</li><input type="text" id="cidade">
-            <li class="lista-inputs">Bairro</li><input type="text" id="bairro">
-        </ul>
-        <button onclick="gravar()" class="button-gravar">Gravar</button>
-    </main>
 
+    <main>
+        <div class="bg"><h2>PAGINA 4</h2></div>
+        <button onclick="listar()">Listar</button>
+        <table>
+            <tr>
+                <td id="mostrar"></td>
+            </tr>
+        </table>
+    </main>
 </body>
-</html>
